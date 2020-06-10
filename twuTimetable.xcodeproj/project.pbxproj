@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E09BA511E2988B7622FB079 /* Pods_twuTimetable_twuTimetableUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A375A6352A19322CBFCC83 /* Pods_twuTimetable_twuTimetableUITests.framework */; };
+		22EDD2E9E596252F5AF14DB5 /* Pods_twuTimetableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4D4122FB700C59686BA25F /* Pods_twuTimetableTests.framework */; };
+		7452CD8DE4F3AE90DE93AFEE /* Pods_twuTimetable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF49D6AD1EFCB0B1108952B7 /* Pods_twuTimetable.framework */; };
+		E015395B2477A1C300F8E9A5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E015395A2477A1C300F8E9A5 /* WebKit.framework */; };
+		E015395F2477B62C00F8E9A5 /* Timetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E015395E2477B62C00F8E9A5 /* Timetable.swift */; };
 		E0895AA024778C9D00C0B77B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0895A9F24778C9D00C0B77B /* AppDelegate.swift */; };
 		E0895AA224778C9D00C0B77B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0895AA124778C9D00C0B77B /* SceneDelegate.swift */; };
 		E0895AA424778C9D00C0B77B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0895AA324778C9D00C0B77B /* ViewController.swift */; };
@@ -15,6 +20,7 @@
 		E0895AAC24778C9F00C0B77B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0895AAA24778C9F00C0B77B /* LaunchScreen.storyboard */; };
 		E0895AB724778C9F00C0B77B /* twuTimetableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0895AB624778C9F00C0B77B /* twuTimetableTests.swift */; };
 		E0895AC224778C9F00C0B77B /* twuTimetableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0895AC124778C9F00C0B77B /* twuTimetableUITests.swift */; };
+		E0895AD02477931F00C0B77B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0895ACF2477931E00C0B77B /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		002D7EB267E8480F87515F01 /* Pods-twuTimetableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twuTimetableTests.release.xcconfig"; path = "Target Support Files/Pods-twuTimetableTests/Pods-twuTimetableTests.release.xcconfig"; sourceTree = "<group>"; };
+		0E4D4122FB700C59686BA25F /* Pods_twuTimetableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_twuTimetableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E791B05A7212F63A84AA0E2 /* Pods-twuTimetable-twuTimetableUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twuTimetable-twuTimetableUITests.release.xcconfig"; path = "Target Support Files/Pods-twuTimetable-twuTimetableUITests/Pods-twuTimetable-twuTimetableUITests.release.xcconfig"; sourceTree = "<group>"; };
+		33A06742C7992290D7DF2F00 /* Pods-twuTimetable-twuTimetableUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twuTimetable-twuTimetableUITests.debug.xcconfig"; path = "Target Support Files/Pods-twuTimetable-twuTimetableUITests/Pods-twuTimetable-twuTimetableUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90D01E0923DBDDDAF8562DA1 /* Pods-twuTimetableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twuTimetableTests.debug.xcconfig"; path = "Target Support Files/Pods-twuTimetableTests/Pods-twuTimetableTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BAC469B1930A4000B5AA3392 /* Pods-twuTimetable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twuTimetable.debug.xcconfig"; path = "Target Support Files/Pods-twuTimetable/Pods-twuTimetable.debug.xcconfig"; sourceTree = "<group>"; };
+		E015395A2477A1C300F8E9A5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		E015395E2477B62C00F8E9A5 /* Timetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timetable.swift; sourceTree = "<group>"; };
 		E0895A9C24778C9D00C0B77B /* twuTimetable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twuTimetable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0895A9F24778C9D00C0B77B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0895AA124778C9D00C0B77B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,10 @@
 		E0895ABD24778C9F00C0B77B /* twuTimetableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twuTimetableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0895AC124778C9F00C0B77B /* twuTimetableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twuTimetableUITests.swift; sourceTree = "<group>"; };
 		E0895AC324778C9F00C0B77B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0895ACF2477931E00C0B77B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		EF49D6AD1EFCB0B1108952B7 /* Pods_twuTimetable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_twuTimetable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A375A6352A19322CBFCC83 /* Pods_twuTimetable_twuTimetableUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_twuTimetable_twuTimetableUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F875D33B98BEF7F74BBEC9BF /* Pods-twuTimetable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twuTimetable.release.xcconfig"; path = "Target Support Files/Pods-twuTimetable/Pods-twuTimetable.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E015395B2477A1C300F8E9A5 /* WebKit.framework in Frameworks */,
+				7452CD8DE4F3AE90DE93AFEE /* Pods_twuTimetable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22EDD2E9E596252F5AF14DB5 /* Pods_twuTimetableTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +91,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E09BA511E2988B7622FB079 /* Pods_twuTimetable_twuTimetableUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18D1854F51F1EFE4A6D2B6B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAC469B1930A4000B5AA3392 /* Pods-twuTimetable.debug.xcconfig */,
+				F875D33B98BEF7F74BBEC9BF /* Pods-twuTimetable.release.xcconfig */,
+				33A06742C7992290D7DF2F00 /* Pods-twuTimetable-twuTimetableUITests.debug.xcconfig */,
+				0E791B05A7212F63A84AA0E2 /* Pods-twuTimetable-twuTimetableUITests.release.xcconfig */,
+				90D01E0923DBDDDAF8562DA1 /* Pods-twuTimetableTests.debug.xcconfig */,
+				002D7EB267E8480F87515F01 /* Pods-twuTimetableTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E01539592477A1C300F8E9A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E015395A2477A1C300F8E9A5 /* WebKit.framework */,
+				EF49D6AD1EFCB0B1108952B7 /* Pods_twuTimetable.framework */,
+				F0A375A6352A19322CBFCC83 /* Pods_twuTimetable_twuTimetableUITests.framework */,
+				0E4D4122FB700C59686BA25F /* Pods_twuTimetableTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E0895A9324778C9D00C0B77B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +130,8 @@
 				E0895AB524778C9F00C0B77B /* twuTimetableTests */,
 				E0895AC024778C9F00C0B77B /* twuTimetableUITests */,
 				E0895A9D24778C9D00C0B77B /* Products */,
+				E01539592477A1C300F8E9A5 /* Frameworks */,
+				18D1854F51F1EFE4A6D2B6B0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +152,11 @@
 				E0895AA124778C9D00C0B77B /* SceneDelegate.swift */,
 				E0895AA324778C9D00C0B77B /* ViewController.swift */,
 				E0895AA524778C9D00C0B77B /* Main.storyboard */,
+				E0895ACF2477931E00C0B77B /* LoginVC.swift */,
 				E0895AA824778C9F00C0B77B /* Assets.xcassets */,
 				E0895AAA24778C9F00C0B77B /* LaunchScreen.storyboard */,
 				E0895AAD24778C9F00C0B77B /* Info.plist */,
+				E015395E2477B62C00F8E9A5 /* Timetable.swift */,
 			);
 			path = twuTimetable;
 			sourceTree = "<group>";
@@ -135,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0895AC624778C9F00C0B77B /* Build configuration list for PBXNativeTarget "twuTimetable" */;
 			buildPhases = (
+				585644B5F14385897E27664A /* [CP] Check Pods Manifest.lock */,
 				E0895A9824778C9D00C0B77B /* Sources */,
 				E0895A9924778C9D00C0B77B /* Frameworks */,
 				E0895A9A24778C9D00C0B77B /* Resources */,
+				364696001BB9AE4CB7ACCBE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0895AC924778C9F00C0B77B /* Build configuration list for PBXNativeTarget "twuTimetableTests" */;
 			buildPhases = (
+				42CF5EE3746F683493C48AEE /* [CP] Check Pods Manifest.lock */,
 				E0895AAE24778C9F00C0B77B /* Sources */,
 				E0895AAF24778C9F00C0B77B /* Frameworks */,
 				E0895AB024778C9F00C0B77B /* Resources */,
@@ -170,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0895ACC24778C9F00C0B77B /* Build configuration list for PBXNativeTarget "twuTimetableUITests" */;
 			buildPhases = (
+				C89147A3EF75913EE5A47803 /* [CP] Check Pods Manifest.lock */,
 				E0895AB924778C9F00C0B77B /* Sources */,
 				E0895ABA24778C9F00C0B77B /* Frameworks */,
 				E0895ABB24778C9F00C0B77B /* Resources */,
+				475E117009A46C294C2FB799 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +309,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		364696001BB9AE4CB7ACCBE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-twuTimetable/Pods-twuTimetable-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-twuTimetable/Pods-twuTimetable-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-twuTimetable/Pods-twuTimetable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42CF5EE3746F683493C48AEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-twuTimetableTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		475E117009A46C294C2FB799 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-twuTimetable-twuTimetableUITests/Pods-twuTimetable-twuTimetableUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-twuTimetable-twuTimetableUITests/Pods-twuTimetable-twuTimetableUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-twuTimetable-twuTimetableUITests/Pods-twuTimetable-twuTimetableUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		585644B5F14385897E27664A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-twuTimetable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C89147A3EF75913EE5A47803 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-twuTimetable-twuTimetableUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E0895A9824778C9D00C0B77B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E0895AA424778C9D00C0B77B /* ViewController.swift in Sources */,
+				E015395F2477B62C00F8E9A5 /* Timetable.swift in Sources */,
 				E0895AA024778C9D00C0B77B /* AppDelegate.swift in Sources */,
+				E0895AD02477931F00C0B77B /* LoginVC.swift in Sources */,
 				E0895AA224778C9D00C0B77B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +592,7 @@
 		};
 		E0895AC724778C9F00C0B77B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC469B1930A4000B5AA3392 /* Pods-twuTimetable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +611,7 @@
 		};
 		E0895AC824778C9F00C0B77B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F875D33B98BEF7F74BBEC9BF /* Pods-twuTimetable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +630,7 @@
 		};
 		E0895ACA24778C9F00C0B77B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D01E0923DBDDDAF8562DA1 /* Pods-twuTimetableTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +653,7 @@
 		};
 		E0895ACB24778C9F00C0B77B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002D7EB267E8480F87515F01 /* Pods-twuTimetableTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +676,7 @@
 		};
 		E0895ACD24778C9F00C0B77B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33A06742C7992290D7DF2F00 /* Pods-twuTimetable-twuTimetableUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +697,7 @@
 		};
 		E0895ACE24778C9F00C0B77B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E791B05A7212F63A84AA0E2 /* Pods-twuTimetable-twuTimetableUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
